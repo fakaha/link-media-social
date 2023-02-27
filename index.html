@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Social Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="main">
+            <img src="img/profile.jpeg" alt="Zulfa Fakaha">
+            <h1 class="title-name">Zulfa Fakaha</h2>
+            <p class="role">I'm a Web Developer</p>
+            <div class="link-socmed">
+                <button onclick="goto('https://instagram.com/zulfa_fakaha')">Instagram</button>
+                <button onclick="goto('https://youtube.com/@zulfafakaha8007')">Youtube</button>
+                <button onclick="goto('https://github.com/fakaha')">Github</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function goto(socialMedia){
+            window.open(socialMedia)
+        }
+    </script>
+
+</body>
+
+</html>

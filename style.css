@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    height: 100vh;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main{
+    height: 100vh;
+    max-width: 500px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/city-background.jpg);
+}
+
+img{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+}
+
+h1.title-name{
+    color: #fff;
+}
+
+p.role{
+    color: #fff;
+    font-size: 16px;
+}
+
+.link-socmed{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+
+.link-socmed button{
+    background-color: #fff;
+    font-size: 20px;
+    border: 0;
+    padding: 8px 0;
+    transition: 350ms ease-in-out;
+}
+
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
