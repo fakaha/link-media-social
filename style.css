@@ -1,62 +1,90 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    margin: auto;
-    height: 100vh;
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.main{
-    height: 100vh;
-    max-width: 500px;
-    display: flex;
-    gap: 15px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(img/city-background.jpg);
+.container {
+  margin: auto;
+  height: 100vh;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-img{
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    object-position: center;
+.main {
+  height: 100vh;
+  max-width: 500px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(img/city-background.jpg);
 }
 
-h1.title-name{
-    color: #fff;
+img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
 }
 
-p.role{
-    color: #fff;
-    font-size: 16px;
+h1.title-name {
+  color: #fff;
 }
 
-.link-socmed{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 80%;
+p.role {
+  color: #fff;
+  font-size: 16px;
 }
 
-.link-socmed button{
-    background-color: #fff;
-    font-size: 20px;
-    border: 0;
-    padding: 8px 0;
-    transition: 350ms ease-in-out;
+.link-socmed {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
 }
 
-button:hover{
-    background-color: #000;
-    color: #fff;
+.link-socmed button {
+  background-color: #fff;
+  font-size: 20px;
+  border: 0;
+  padding: 8px 0;
+  transition: 350ms ease-in-out;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  animation: ring 2s linear infinite;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@keyframes ring {
+  0% {
+    box-shadow: 5px 2px 5px rgba(228, 18, 11, 0.877);
+  }
+  50% {
+    box-shadow: 5px 2px 5px rgba(1, 255, 1, 0.822);
+  }
+  100% {
+    box-shadow: 5px 2px 5px rgba(84, 5, 231, 0.911);
+  }
+}
+span {
+  color: #737373;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 200px;
+  animation: text 3s ease-in-out infinite;
 }
