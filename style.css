@@ -74,13 +74,13 @@ button:hover {
 
 @keyframes ring {
   0% {
-    box-shadow: 5px 2px 5px rgba(228, 18, 11, 0.877);
+    box-shadow: 5px 2px 5px #A055AF;
   }
   50% {
-    box-shadow: 5px 2px 5px rgba(1, 255, 1, 0.822);
+    box-shadow: 5px 2px 5px #A50E4E;
   }
   100% {
-    box-shadow: 5px 2px 5px rgba(84, 5, 231, 0.911);
+    box-shadow: 5px 2px 5px #5584C8;
   }
 }
 span {
