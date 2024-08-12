@@ -75,6 +75,10 @@ button:hover {
   color: #000;
 }
 
+.copyright{
+  color: #fff;
+}
+
 @keyframes ring {
   0% {
     box-shadow: 1px 0 4px #A055AF;
