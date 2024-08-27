@@ -12,7 +12,7 @@ body {
 
 .container {
   margin: auto;
-  height: 100vh;
+  /* max-height: 100vh; */
   max-width: 500px;
   display: flex;
   flex-direction: column;
@@ -23,8 +23,8 @@ body {
   height: 100vh;
   max-width: 500px;
   display: flex;
-  gap: 15px;
-  background-color: #151515;
+  gap: 10px;
+  background-color: #2633FF;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -36,18 +36,18 @@ body {
 
 img {
   border-radius: 50%;
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   object-position: center;
 }
 
 h1.title-name {
-  color: #fff;
+  color: #D3D3D3;
 }
 
 p.role {
-  color: #fff;
+  color: #D3D3D3;
   font-size: 16px;
 }
 
@@ -56,11 +56,12 @@ p.role {
   flex-direction: column;
   gap: 10px;
   width: 80%;
+  margin-top: 15px;
 }
 
 .link-socmed button {
-  background-color: #000000;
-  color: #fff;
+  background-color: #E80500;
+  color: #D3D3D3;
   font-size: 20px;
   border: 0;
   padding: 8px 0;
@@ -71,25 +72,53 @@ p.role {
 }
 
 button:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #B11226;
+  color: #A8A9AD;
 }
 
 .copyright{
-  color: #fff;
+  margin-top: 35px;
+  color: #D3D3D3;
+  position: relative;
 }
 
-@keyframes ring {
+.emote-spirit{
+  width: fit-content;
+  height: 18px;
+  position: absolute;
+  top: 0;
+  animation: fire 1.8s linear infinite;
+}
+
+@keyframes fire {
   0% {
-    box-shadow: 1px 0 4px #A055AF;
+    top: 0px;
+  }
+  25% {
+    top: 3px;
   }
   50% {
-    box-shadow: 1px 0 4px #A50E4E;
+    top: 0px;
   }
-  100% {
-    box-shadow: 1px 0 4px #5584C8;
+  75%{
+    top: -3px;
+  }
+  100%{
+    top: 0px;
   }
 }
+
+/* @keyframes ring {
+  0% {
+    box-shadow: 1px 0 4px #D92121;
+  }
+  50% {
+    box-shadow: 1px 0 4px #F28A2E;
+  }
+  100% {
+    box-shadow: 1px 0 4px #00A36C;
+  }
+} */
 span {
   color: #737373;
   font-size: 20px;
