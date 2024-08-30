@@ -24,7 +24,7 @@ body {
   max-width: 500px;
   display: flex;
   gap: 10px;
-  background-color: #112047;
+  background-color: #155cc7;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -43,11 +43,11 @@ img {
 }
 
 h1.title-name {
-  color: #D3D3D3;
+  color: #fff;
 }
 
 p.role {
-  color: #D3D3D3;
+  color: #fff;
   font-size: 16px;
 }
 
@@ -60,9 +60,9 @@ p.role {
 }
 
 .link-socmed button {
-  /* background-color: #28375e; */
-  background-image: linear-gradient(to top right, #4d57a0, #28c28a);
-  color: #D3D3D3;
+  background-color: #fff;
+  /* background-image: linear-gradient(to top right, #4d57a0, #28c28a); */
+  color: #333;
   font-size: 20px;
   border: 0;
   padding: 8px 0;
@@ -74,12 +74,12 @@ p.role {
 
 button:hover {
   /* background-color: #28c28a; */
-  color: #A8A9AD;
+  color: #155cc7;
 }
 
 .copyright{
   margin-top: 35px;
-  color: #D3D3D3;
+  color: #fff;
   position: relative;
 }
 
