@@ -2,12 +2,17 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .container {
@@ -24,7 +29,7 @@ body {
   max-width: 500px;
   display: flex;
   gap: 10px;
-  background-color: #155cc7;
+  background-color: #1e1f24;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -51,6 +56,12 @@ p.role {
   font-size: 16px;
 }
 
+.role-spec{
+  text-transform: capitalize;
+  color: #14bafc;
+  font-size: 16px;
+}
+
 .link-socmed {
   display: flex;
   flex-direction: column;
@@ -60,7 +71,7 @@ p.role {
 }
 
 .link-socmed button {
-  background-color: #fff;
+  background-color: #14bafc;
   /* background-image: linear-gradient(to top right, #4d57a0, #28c28a); */
   color: #333;
   font-size: 20px;
@@ -74,11 +85,12 @@ p.role {
 
 button:hover {
   /* background-color: #28c28a; */
-  color: #155cc7;
+  color: #fff;
 }
 
 .copyright{
-  margin-top: 35px;
+  margin-top: 14px;
+  padding-bottom: 10px;
   color: #fff;
   position: relative;
 }
@@ -120,11 +132,11 @@ button:hover {
     box-shadow: 1px 0 4px #00A36C;
   }
 } */
-span {
+/* span {
   color: #737373;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 200px;
   animation: text 3s ease-in-out infinite;
-}
+} */
